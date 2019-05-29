@@ -6,14 +6,14 @@ Akshay Kochhar - 18230051
 **Introduction:**
 -----------------
 
-In this assignment, I have applied graph analytics to the text analysis domain. In order to present a meaningful report, we are required to full-fill following objectives:
+In this project, I have applied graph analytics to the text analysis domain. In order to present a meaningful report, we are required to full-fill following objectives:
 
 1.  Graph measurements such as centrality diameter, radius, eccentricity.
 2.  Using Clique and community analytical techniques, communities must be thoroughly analyzed. Important communities should be treated as sub-graphs and explain their relevance by utilizing graph measures.
 3.  Using knowledge of IR and NLP, examined whether noun, n-gram, entity or named-entity based extraction approach may produce sparser but more interpretable graphs.
 4.  Compared the graphs produced by different sections of the book - for example, compared the principle relationships extracted from the first half the book with those extracted from the second half of the book.
 
-In order to fulfil the above required objectives, the book 'The Trial by Franz Kafka'\[1\] was downloaded from project Gutenberg and was manually divided into multiple text files by chapters. The separation of the book into chapter wise text files helped to find relationships between important characters of the main plot of crime fiction.
+In order to fulfil the above required objectives, the book 'The Trial by Franz Kafka'\[1\] was downloaded from [project Gutenberg](http://www.gutenberg.org/ebooks/7849) and was manually divided into multiple text files by chapters. The separation of the book into chapter wise text files helped to find relationships between important characters of the main plot of crime fiction.
 
 **Deliverables:**
 -----------------
@@ -1402,7 +1402,7 @@ As per the above graphs of second section of the book, we can observe that these
 4.  The cutting of communities for further analysis was helpful in developing an understanding in depth of the large communities formed initially.
 5.  As I have read the book, I could make out that the characters and situations extracted from the book is accurate to the plot unfolded in the book.
 
-**Reference:**
+**References:**
 --------------
 
 1. Kafka, F. (1925). The trial. \[online\] Project Gutenberg. Available at: <http://www.gutenberg.org/ebooks/7849> \[Accessed 4 Apr. 2019\]. 
