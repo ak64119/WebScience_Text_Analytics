@@ -1405,4 +1405,8 @@ As per the above graphs of second section of the book, we can observe that these
 **Reference:**
 --------------
 
-\1.\ Kafka, F. (1925). The trial. \[online\] Project Gutenberg. Available at: <http://www.gutenberg.org/ebooks/7849> \[Accessed 8 Apr. 2019\]. \2.\ David Robinson. (2017). David Robinson's Personal R Package. \[online\]. Available at: <https://github.com/dgrtwo/drlib> \[Accessed 4 Apr. 2019\]. \3.\ Dr. Shirin Glander. (2018). Another Game of Thrones network analysis - this time with tidygraph and ggraph. \[online\]. Available at: <https://www.r-bloggers.com/another-game-of-thrones-network-analysis-this-time-with-tidygraph-and-ggraph/> \[Accessed 4 Apr. 2019\]. \4.\ Pedersen, T. (2018). Package 'ggraph'. \[online\]. Available at: <https://cran.r-project.org/web/packages/ggraph/ggraph.pdf> \5.\ Introducing tidygraph. (2017). \[online\]. Available at: <https://www.data-imaginist.com/2017/introducing-tidygraph/>
+1. Kafka, F. (1925). The trial. \[online\] Project Gutenberg. Available at: <http://www.gutenberg.org/ebooks/7849> \[Accessed 4 Apr. 2019\]. 
+2. David Robinson. (2017). David Robinson's Personal R Package. \[online\]. Available at: <https://github.com/dgrtwo/drlib> \[Accessed 4 Apr. 2019\]. 
+3. Dr. Shirin Glander. (2018). Another Game of Thrones network analysis - this time with tidygraph and ggraph. \[online\]. Available at: <https://www.r-bloggers.com/another-game-of-thrones-network-analysis-this-time-with-tidygraph-and-ggraph/> \[Accessed 4 Apr. 2019\]. 
+4. Pedersen, T. (2018). Package 'ggraph'. \[online\]. Available at: <https://cran.r-project.org/web/packages/ggraph/ggraph.pdf> \[Accessed 4 Apr. 2019\]. 
+5. Introducing tidygraph. (2017). \[online\]. Available at: <https://www.data-imaginist.com/2017/introducing-tidygraph/> \[Accessed 4 Apr. 2019\]. 
