@@ -1,7 +1,7 @@
-Graph Analytics on The Trial
+Graph Analytics on 'The Trial'
 ================
 Akshay Kochhar - 18230051
-4 April 2019
+4th April 2019
 
 **Introduction:**
 -----------------
@@ -222,7 +222,7 @@ fig1.1 <- book_words_count %>%
 fig1.1
 ```
 
-<img src="R_Assign_New_files/figure-markdown_github/tdf_idf-1.png" style="display: block; margin: auto;" />
+<img src="figure-markdown_github/tdf_idf-1.png" style="display: block; margin: auto;" />
 
 ``` r
 #[2] drlib::reorder_within(entity, tf_idf, chapter)
@@ -283,7 +283,7 @@ fig1.2 <- ggraph(correlation_graph_initial, layout = "kk") +
 fig1.2
 ```
 
-<img src="R_Assign_New_files/figure-markdown_github/corltion-1.png" style="display: block; margin: auto;" />
+<img src="figure-markdown_github/corltion-1.png" style="display: block; margin: auto;" />
 
 ``` r
 ############################################################
@@ -334,7 +334,7 @@ fig2.1 <- ggraph(graph_values, layout = "fr") +
 fig2.1
 ```
 
-<img src="R_Assign_New_files/figure-markdown_github/centrality_plot-1.png" style="display: block; margin: auto;" />
+<img src="figure-markdown_github/centrality_plot-1.png" style="display: block; margin: auto;" />
 
 ``` r
 ############################################################
@@ -361,7 +361,7 @@ fig2.2 <- ggraph(graph_values, layout = "fr") +
 fig2.2
 ```
 
-<img src="R_Assign_New_files/figure-markdown_github/eccentricity_plot-1.png" style="display: block; margin: auto;" />
+<img src="figure-markdown_github/eccentricity_plot-1.png" style="display: block; margin: auto;" />
 
 ``` r
 ############################################################
@@ -411,7 +411,7 @@ fig3.1 <- ggraph(multiple_grph, layout = "kk") +
 fig3.1
 ```
 
-<img src="R_Assign_New_files/figure-markdown_github/louvain-1.png" style="display: block; margin: auto;" />
+<img src="figure-markdown_github/louvain-1.png" style="display: block; margin: auto;" />
 
 ``` r
 ##########################################################################
@@ -490,25 +490,25 @@ while(i <= number_comm){
 graph_cent[[1]]
 ```
 
-<img src="R_Assign_New_files/figure-markdown_github/louvain_sub_graph_plots_cent-1.png" style="display: block; margin: auto;" />
+<img src="figure-markdown_github/louvain_sub_graph_plots_cent-1.png" style="display: block; margin: auto;" />
 
 ``` r
 graph_cent[[2]]
 ```
 
-<img src="R_Assign_New_files/figure-markdown_github/louvain_sub_graph_plots_cent-2.png" style="display: block; margin: auto;" />
+<img src="figure-markdown_github/louvain_sub_graph_plots_cent-2.png" style="display: block; margin: auto;" />
 
 ``` r
 graph_cent[[3]]
 ```
 
-<img src="R_Assign_New_files/figure-markdown_github/louvain_sub_graph_plots_cent-3.png" style="display: block; margin: auto;" />
+<img src="figure-markdown_github/louvain_sub_graph_plots_cent-3.png" style="display: block; margin: auto;" />
 
 ``` r
 graph_cent[[4]]
 ```
 
-<img src="R_Assign_New_files/figure-markdown_github/louvain_sub_graph_plots_cent-4.png" style="display: block; margin: auto;" />
+<img src="figure-markdown_github/louvain_sub_graph_plots_cent-4.png" style="display: block; margin: auto;" />
 
 ``` r
 ##########################################################################
@@ -529,25 +529,25 @@ In the centrality graphs for all the communities above, we can see that the node
 graph_eccent[[1]]
 ```
 
-<img src="R_Assign_New_files/figure-markdown_github/louvain_sub_graph_plots_eccent-1.png" style="display: block; margin: auto;" />
+<img src="figure-markdown_github/louvain_sub_graph_plots_eccent-1.png" style="display: block; margin: auto;" />
 
 ``` r
 graph_eccent[[2]]
 ```
 
-<img src="R_Assign_New_files/figure-markdown_github/louvain_sub_graph_plots_eccent-2.png" style="display: block; margin: auto;" />
+<img src="figure-markdown_github/louvain_sub_graph_plots_eccent-2.png" style="display: block; margin: auto;" />
 
 ``` r
 graph_eccent[[3]]
 ```
 
-<img src="R_Assign_New_files/figure-markdown_github/louvain_sub_graph_plots_eccent-3.png" style="display: block; margin: auto;" />
+<img src="figure-markdown_github/louvain_sub_graph_plots_eccent-3.png" style="display: block; margin: auto;" />
 
 ``` r
 graph_eccent[[4]]
 ```
 
-<img src="R_Assign_New_files/figure-markdown_github/louvain_sub_graph_plots_eccent-4.png" style="display: block; margin: auto;" />
+<img src="figure-markdown_github/louvain_sub_graph_plots_eccent-4.png" style="display: block; margin: auto;" />
 
 ``` r
 ############################################################################
@@ -583,7 +583,7 @@ fig3.2 <- ggraph(multiple_grph, layout = "kk") +
 fig3.2
 ```
 
-<img src="R_Assign_New_files/figure-markdown_github/fast_greedy-1.png" style="display: block; margin: auto;" />
+<img src="figure-markdown_github/fast_greedy-1.png" style="display: block; margin: auto;" />
 
 ``` r
 ##########################################################################
@@ -662,25 +662,25 @@ while(i <= number_comm){
 graph_cent2[[1]]
 ```
 
-<img src="R_Assign_New_files/figure-markdown_github/greedy_sub_graph_plots_cent-1.png" style="display: block; margin: auto;" />
+<img src="figure-markdown_github/greedy_sub_graph_plots_cent-1.png" style="display: block; margin: auto;" />
 
 ``` r
 graph_cent2[[2]]
 ```
 
-<img src="R_Assign_New_files/figure-markdown_github/greedy_sub_graph_plots_cent-2.png" style="display: block; margin: auto;" />
+<img src="figure-markdown_github/greedy_sub_graph_plots_cent-2.png" style="display: block; margin: auto;" />
 
 ``` r
 graph_cent2[[3]]
 ```
 
-<img src="R_Assign_New_files/figure-markdown_github/greedy_sub_graph_plots_cent-3.png" style="display: block; margin: auto;" />
+<img src="figure-markdown_github/greedy_sub_graph_plots_cent-3.png" style="display: block; margin: auto;" />
 
 ``` r
 graph_cent2[[4]]
 ```
 
-<img src="R_Assign_New_files/figure-markdown_github/greedy_sub_graph_plots_cent-4.png" style="display: block; margin: auto;" />
+<img src="figure-markdown_github/greedy_sub_graph_plots_cent-4.png" style="display: block; margin: auto;" />
 
 ``` r
 ##########################################################################
@@ -701,25 +701,25 @@ In the centrality graphs for all the communities above, we can see that the node
 graph_eccent2[[1]]
 ```
 
-<img src="R_Assign_New_files/figure-markdown_github/greedy_sub_graph_plots_eccent-1.png" style="display: block; margin: auto;" />
+<img src="figure-markdown_github/greedy_sub_graph_plots_eccent-1.png" style="display: block; margin: auto;" />
 
 ``` r
 graph_eccent2[[2]]
 ```
 
-<img src="R_Assign_New_files/figure-markdown_github/greedy_sub_graph_plots_eccent-2.png" style="display: block; margin: auto;" />
+<img src="figure-markdown_github/greedy_sub_graph_plots_eccent-2.png" style="display: block; margin: auto;" />
 
 ``` r
 graph_eccent2[[3]]
 ```
 
-<img src="R_Assign_New_files/figure-markdown_github/greedy_sub_graph_plots_eccent-3.png" style="display: block; margin: auto;" />
+<img src="figure-markdown_github/greedy_sub_graph_plots_eccent-3.png" style="display: block; margin: auto;" />
 
 ``` r
 graph_eccent2[[4]]
 ```
 
-<img src="R_Assign_New_files/figure-markdown_github/greedy_sub_graph_plots_eccent-4.png" style="display: block; margin: auto;" />
+<img src="figure-markdown_github/greedy_sub_graph_plots_eccent-4.png" style="display: block; margin: auto;" />
 
 ``` r
 ############################################################################
@@ -830,7 +830,7 @@ fig4.1 <- bigram_tf_idf %>%
 fig4.1
 ```
 
-<img src="R_Assign_New_files/figure-markdown_github/Bigram_plot-1.png" style="display: block; margin: auto;" />
+<img src="figure-markdown_github/Bigram_plot-1.png" style="display: block; margin: auto;" />
 
 ``` r
 #######################################################
@@ -893,7 +893,7 @@ fig4.2 <- ggraph(graph_values_bi, layout = "kk") +
 fig4.2
 ```
 
-<img src="R_Assign_New_files/figure-markdown_github/bi_corltion_graph-1.png" style="display: block; margin: auto;" />
+<img src="figure-markdown_github/bi_corltion_graph-1.png" style="display: block; margin: auto;" />
 
 ``` r
 ###################################################################
@@ -1016,7 +1016,7 @@ fig5.1 <- ggraph(graph_values_sec_1, layout = "fr") +
 fig5.1
 ```
 
-<img src="R_Assign_New_files/figure-markdown_github/corltion_graph_sec_1-1.png" style="display: block; margin: auto;" />
+<img src="figure-markdown_github/corltion_graph_sec_1-1.png" style="display: block; margin: auto;" />
 
 ``` r
 ############################################################
@@ -1092,49 +1092,49 @@ while(i <= number_comm){
 graph_cent5[[1]]
 ```
 
-<img src="R_Assign_New_files/figure-markdown_github/first_sec_sep_comm_1-1.png" style="display: block; margin: auto;" />
+<img src="figure-markdown_github/first_sec_sep_comm_1-1.png" style="display: block; margin: auto;" />
 
 ``` r
 graph_cent5[[2]]
 ```
 
-<img src="R_Assign_New_files/figure-markdown_github/first_sec_sep_comm_1-2.png" style="display: block; margin: auto;" />
+<img src="figure-markdown_github/first_sec_sep_comm_1-2.png" style="display: block; margin: auto;" />
 
 ``` r
 graph_cent5[[3]]
 ```
 
-<img src="R_Assign_New_files/figure-markdown_github/first_sec_sep_comm_1-3.png" style="display: block; margin: auto;" />
+<img src="figure-markdown_github/first_sec_sep_comm_1-3.png" style="display: block; margin: auto;" />
 
 ``` r
 graph_cent5[[4]]
 ```
 
-<img src="R_Assign_New_files/figure-markdown_github/first_sec_sep_comm_1-4.png" style="display: block; margin: auto;" />
+<img src="figure-markdown_github/first_sec_sep_comm_1-4.png" style="display: block; margin: auto;" />
 
 ``` r
 graph_cent5[[5]]
 ```
 
-<img src="R_Assign_New_files/figure-markdown_github/first_sec_sep_comm_1-5.png" style="display: block; margin: auto;" />
+<img src="figure-markdown_github/first_sec_sep_comm_1-5.png" style="display: block; margin: auto;" />
 
 ``` r
 graph_cent5[[6]]
 ```
 
-<img src="R_Assign_New_files/figure-markdown_github/first_sec_sep_comm_1-6.png" style="display: block; margin: auto;" />
+<img src="figure-markdown_github/first_sec_sep_comm_1-6.png" style="display: block; margin: auto;" />
 
 ``` r
 graph_cent5[[7]]
 ```
 
-<img src="R_Assign_New_files/figure-markdown_github/first_sec_sep_comm_1-7.png" style="display: block; margin: auto;" />
+<img src="figure-markdown_github/first_sec_sep_comm_1-7.png" style="display: block; margin: auto;" />
 
 ``` r
 graph_cent5[[8]]
 ```
 
-<img src="R_Assign_New_files/figure-markdown_github/first_sec_sep_comm_1-8.png" style="display: block; margin: auto;" />
+<img src="figure-markdown_github/first_sec_sep_comm_1-8.png" style="display: block; margin: auto;" />
 
 ``` r
 ############################################################################
@@ -1146,49 +1146,49 @@ graph_cent5[[8]]
 graph_eccent5[[1]]
 ```
 
-<img src="R_Assign_New_files/figure-markdown_github/first_sec_sep_comm_2-1.png" style="display: block; margin: auto;" />
+<img src="figure-markdown_github/first_sec_sep_comm_2-1.png" style="display: block; margin: auto;" />
 
 ``` r
 graph_eccent5[[2]]
 ```
 
-<img src="R_Assign_New_files/figure-markdown_github/first_sec_sep_comm_2-2.png" style="display: block; margin: auto;" />
+<img src="figure-markdown_github/first_sec_sep_comm_2-2.png" style="display: block; margin: auto;" />
 
 ``` r
 graph_eccent5[[3]]
 ```
 
-<img src="R_Assign_New_files/figure-markdown_github/first_sec_sep_comm_2-3.png" style="display: block; margin: auto;" />
+<img src="figure-markdown_github/first_sec_sep_comm_2-3.png" style="display: block; margin: auto;" />
 
 ``` r
 graph_eccent5[[4]]
 ```
 
-<img src="R_Assign_New_files/figure-markdown_github/first_sec_sep_comm_2-4.png" style="display: block; margin: auto;" />
+<img src="figure-markdown_github/first_sec_sep_comm_2-4.png" style="display: block; margin: auto;" />
 
 ``` r
 graph_eccent5[[5]]
 ```
 
-<img src="R_Assign_New_files/figure-markdown_github/first_sec_sep_comm_2-5.png" style="display: block; margin: auto;" />
+<img src="figure-markdown_github/first_sec_sep_comm_2-5.png" style="display: block; margin: auto;" />
 
 ``` r
 graph_eccent5[[6]]
 ```
 
-<img src="R_Assign_New_files/figure-markdown_github/first_sec_sep_comm_2-6.png" style="display: block; margin: auto;" />
+<img src="figure-markdown_github/first_sec_sep_comm_2-6.png" style="display: block; margin: auto;" />
 
 ``` r
 graph_eccent5[[7]]
 ```
 
-<img src="R_Assign_New_files/figure-markdown_github/first_sec_sep_comm_2-7.png" style="display: block; margin: auto;" />
+<img src="figure-markdown_github/first_sec_sep_comm_2-7.png" style="display: block; margin: auto;" />
 
 ``` r
 graph_eccent5[[8]]
 ```
 
-<img src="R_Assign_New_files/figure-markdown_github/first_sec_sep_comm_2-8.png" style="display: block; margin: auto;" />
+<img src="figure-markdown_github/first_sec_sep_comm_2-8.png" style="display: block; margin: auto;" />
 
 ``` r
 ############################################################################
@@ -1247,7 +1247,7 @@ fig5.2 <- ggraph(graph_values_sec_2, layout = "kk") +
 fig5.2
 ```
 
-<img src="R_Assign_New_files/figure-markdown_github/corltion_graph_sec_2-1.png" style="display: block; margin: auto;" />
+<img src="figure-markdown_github/corltion_graph_sec_2-1.png" style="display: block; margin: auto;" />
 
 ``` r
 ############################################################
@@ -1323,31 +1323,31 @@ while(i <= number_comm){
 graph_cent6[[1]]
 ```
 
-<img src="R_Assign_New_files/figure-markdown_github/secnd_sec_sep_comm_1-1.png" style="display: block; margin: auto;" />
+<img src="figure-markdown_github/secnd_sec_sep_comm_1-1.png" style="display: block; margin: auto;" />
 
 ``` r
 graph_cent6[[2]]
 ```
 
-<img src="R_Assign_New_files/figure-markdown_github/secnd_sec_sep_comm_1-2.png" style="display: block; margin: auto;" />
+<img src="figure-markdown_github/secnd_sec_sep_comm_1-2.png" style="display: block; margin: auto;" />
 
 ``` r
 graph_cent6[[3]]
 ```
 
-<img src="R_Assign_New_files/figure-markdown_github/secnd_sec_sep_comm_1-3.png" style="display: block; margin: auto;" />
+<img src="figure-markdown_github/secnd_sec_sep_comm_1-3.png" style="display: block; margin: auto;" />
 
 ``` r
 graph_cent6[[4]]
 ```
 
-<img src="R_Assign_New_files/figure-markdown_github/secnd_sec_sep_comm_1-4.png" style="display: block; margin: auto;" />
+<img src="figure-markdown_github/secnd_sec_sep_comm_1-4.png" style="display: block; margin: auto;" />
 
 ``` r
 graph_cent6[[5]]
 ```
 
-<img src="R_Assign_New_files/figure-markdown_github/secnd_sec_sep_comm_1-5.png" style="display: block; margin: auto;" />
+<img src="figure-markdown_github/secnd_sec_sep_comm_1-5.png" style="display: block; margin: auto;" />
 
 ``` r
 ###########################################################################
@@ -1359,31 +1359,31 @@ graph_cent6[[5]]
 graph_eccent6[[1]]
 ```
 
-<img src="R_Assign_New_files/figure-markdown_github/secnd_sec_sep_comm_2-1.png" style="display: block; margin: auto;" />
+<img src="figure-markdown_github/secnd_sec_sep_comm_2-1.png" style="display: block; margin: auto;" />
 
 ``` r
 graph_eccent6[[2]]
 ```
 
-<img src="R_Assign_New_files/figure-markdown_github/secnd_sec_sep_comm_2-2.png" style="display: block; margin: auto;" />
+<img src="figure-markdown_github/secnd_sec_sep_comm_2-2.png" style="display: block; margin: auto;" />
 
 ``` r
 graph_eccent6[[3]]
 ```
 
-<img src="R_Assign_New_files/figure-markdown_github/secnd_sec_sep_comm_2-3.png" style="display: block; margin: auto;" />
+<img src="figure-markdown_github/secnd_sec_sep_comm_2-3.png" style="display: block; margin: auto;" />
 
 ``` r
 graph_eccent6[[4]]
 ```
 
-<img src="R_Assign_New_files/figure-markdown_github/secnd_sec_sep_comm_2-4.png" style="display: block; margin: auto;" />
+<img src="figure-markdown_github/secnd_sec_sep_comm_2-4.png" style="display: block; margin: auto;" />
 
 ``` r
 graph_eccent6[[5]]
 ```
 
-<img src="R_Assign_New_files/figure-markdown_github/secnd_sec_sep_comm_2-5.png" style="display: block; margin: auto;" />
+<img src="figure-markdown_github/secnd_sec_sep_comm_2-5.png" style="display: block; margin: auto;" />
 
 ``` r
 ###########################################################################
@@ -1405,4 +1405,4 @@ As per the above graphs of second section of the book, we can observe that these
 **Reference:**
 --------------
 
-\[1\] Kafka, F. (1925). The trial. \[online\] Project Gutenberg. Available at: <http://www.gutenberg.org/ebooks/7849> \[Accessed 8 Apr. 2019\]. \[2\] David Robinson. (2017). David Robinson's Personal R Package. \[online\]. Available at: <https://github.com/dgrtwo/drlib> \[Accessed 4 Apr. 2019\]. \[3\] Dr. Shirin Glander. (2018). Another Game of Thrones network analysis - this time with tidygraph and ggraph. \[online\]. Available at: <https://www.r-bloggers.com/another-game-of-thrones-network-analysis-this-time-with-tidygraph-and-ggraph/> \[Accessed 4 Apr. 2019\]. \[4\] Pedersen, T. (2018). Package 'ggraph'. \[online\]. Available at: <https://cran.r-project.org/web/packages/ggraph/ggraph.pdf> \[5\] Introducing tidygraph. (2017). \[online\]. Available at: <https://www.data-imaginist.com/2017/introducing-tidygraph/>
+\1.\ Kafka, F. (1925). The trial. \[online\] Project Gutenberg. Available at: <http://www.gutenberg.org/ebooks/7849> \[Accessed 8 Apr. 2019\]. \2.\ David Robinson. (2017). David Robinson's Personal R Package. \[online\]. Available at: <https://github.com/dgrtwo/drlib> \[Accessed 4 Apr. 2019\]. \3.\ Dr. Shirin Glander. (2018). Another Game of Thrones network analysis - this time with tidygraph and ggraph. \[online\]. Available at: <https://www.r-bloggers.com/another-game-of-thrones-network-analysis-this-time-with-tidygraph-and-ggraph/> \[Accessed 4 Apr. 2019\]. \4.\ Pedersen, T. (2018). Package 'ggraph'. \[online\]. Available at: <https://cran.r-project.org/web/packages/ggraph/ggraph.pdf> \5.\ Introducing tidygraph. (2017). \[online\]. Available at: <https://www.data-imaginist.com/2017/introducing-tidygraph/>
